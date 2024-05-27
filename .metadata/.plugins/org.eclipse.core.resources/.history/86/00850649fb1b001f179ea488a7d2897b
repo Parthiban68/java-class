@@ -9,23 +9,20 @@ public class First {
 		
 		String word[]= new String[2];
 		
-		word[0]="apple";
+		word[0]="aple";
 		word[1]="orange";
 		
 		for(int i=0; i<number.length; i++) {
 			for(int j=0; j<word.length; j++) {
-				if(word[j] == "apple") {
+				if(word[0] == "apple") {
 					System.out.println("it is apple");
 				}else {
 					System.out.println("not a apple");
 				}
-				
+				System.out.println(number[i]);
 				System.out.println(word[j]);
 			}
-			System.out.println(number[i]);
-			
 		}
-		
 	}
 
 }
